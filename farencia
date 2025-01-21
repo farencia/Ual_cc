@@ -1,0 +1,30 @@
+
+my_name = "Farencia"
+city = "London"
+hobby_1 = "painting"
+hobby_2 = "weightlifting"
+hobby_3 = " dancing"
+
+hobbies = ['weightlifting', 'reading', 'traveling', 'designing']
+
+if len(hobbies) > 1:
+    formatted_hobbies = ', '.join(hobbies[:-1]) + ' and ' + hobbies[-1]
+else:
+    formatted_hobbies = hobbies[0]
+
+my_text = f"My name is {my_name}. I live in {city}. My hobbies are {formatted_hobbies}."
+
+print (my_text)
+
+f = open("newfile.txt","w")
+f.write(my_text)
+f.close()
+
+
+
+
+
+
+
+
+

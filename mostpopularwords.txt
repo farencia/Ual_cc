@@ -1,0 +1,12 @@
+Top 10 most popular words in the text:
+
+the: 45
+and: 44
+he: 35
+to: 30
+a: 28
+was: 24
+peter: 23
+in: 15
+but: 15
+his: 15
